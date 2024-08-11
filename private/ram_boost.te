@@ -1,0 +1,7 @@
+typeattribute ram_boost coredomain;
+
+init_daemon_domain(ram_boost)
+
+domain_auto_trans(init, init_exec, ram_boost)
+
+dontaudit ram_boost self:global_capability_class_set { dac_override dac_read_search };
