@@ -88,12 +88,9 @@ genfscon proc /sys/vm/mmap_min_addr u:object_r:proc_security:s0
 genfscon proc /sys/vm/mmap_rnd_bits u:object_r:proc_security:s0
 genfscon proc /sys/vm/mmap_rnd_compat_bits u:object_r:proc_security:s0
 genfscon proc /sys/vm/page-cluster u:object_r:proc_page_cluster:s0
-genfscon proc /sys/vm/compaction_proactiveness u:object_r:proc_drop_caches:s0
 genfscon proc /sys/vm/dirty_ratio u:object_r:proc_drop_caches:s0
 genfscon proc /sys/vm/dirty_writeback_centisecs u:object_r:proc_drop_caches:s0
 genfscon proc /sys/vm/drop_caches u:object_r:proc_drop_caches:s0
-genfscon proc /sys/vm/swap_ratio u:object_r:proc_drop_caches:s0
-genfscon proc /sys/vm/swap_ratio_enable u:object_r:proc_drop_caches:s0
 genfscon proc /sys/vm/vfs_cache_pressure u:object_r:proc_drop_caches:s0
 genfscon proc /sys/vm/overcommit_memory u:object_r:proc_overcommit_memory:s0
 genfscon proc /sys/vm/min_free_order_shift u:object_r:proc_min_free_order_shift:s0
