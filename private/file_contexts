@@ -403,10 +403,6 @@
 /system/bin/android\.automotive\.evs\.manager@1\.[0-9]+ u:object_r:evsmanagerd_exec:s0
 /system/bin/uprobestats           u:object_r:uprobestats_exec:s0
 
-# Ram Boost
-/system/bin/ram_boost\.sh u:object_r:ram_boost_exec:s0
-/data/swap/swapfile u:object_r:ram_boost_swap_file:s0
-
 #############################
 # Vendor files
 #
